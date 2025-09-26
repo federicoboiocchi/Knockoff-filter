@@ -1,3 +1,5 @@
+# Author: Federico Boiocchi June 2025
+
 # Experiment on real data: HIV-1 resistance
 
 # Our attenation is focused on HIV 1 resistance to Protease inhibitors, in particular
@@ -420,4 +422,5 @@ ggplot(data_comp_long, aes(x = Procedures, y = Count, fill = Type)) +
 # where the blue part are true positives, namely positions selected appearing in the TSM list, while
 # the orange part are false positives, namely it represents for each approach the number of
 # mutations selected that were not in the TSM list.
+
 
