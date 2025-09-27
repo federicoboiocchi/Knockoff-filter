@@ -1,4 +1,6 @@
-rm(list = ls())
+# Code for Graphs in Chapter 1
+
+#rm(list = ls())
 # Sample mean on the x axis
 # arbitrarily chosen quantities to allow
 # an effective representation
@@ -154,3 +156,4 @@ segments(-0.3, 0, 0, 0, lwd = 3, col = "lightblue")
 text(0.12, 0.07, labels = c(expression(H[1])), col = "darkorange", cex = 1.2)
 text(-0.087, 0.07, labels = c(expression(H[0])), col = "lightblue", cex = 1.2)
 text(-0.01, 0.8, labels = c(expression(mu[0])))
+
