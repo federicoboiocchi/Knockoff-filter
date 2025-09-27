@@ -1,3 +1,5 @@
+# Author: Federico Boiocchi
+
 # Microarray simulation study
 # Power and FDR comparison using two-sample T tests (Naive,Bonferroni,Holm,Bhq)
 rm(list = ls())
@@ -141,3 +143,4 @@ legend(
   cex = 0.65,
   lwd = 1.25,
 )
+
